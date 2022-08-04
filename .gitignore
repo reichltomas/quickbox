@@ -36,3 +36,9 @@ Makefile*
 *.qmlproject.user.*
 
 _work/*
+
+/bin/
+**/release/
+**/debug/
+*.Debug
+*.Release
