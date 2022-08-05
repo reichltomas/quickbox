@@ -122,6 +122,7 @@ public:
 		col_radio,
 		col_longitude,
 		col_latitude,
+		col_timedCrossingMinSeconds,
 		col_COUNT
 	};
 

@@ -1538,7 +1538,7 @@ Pokud budete pokračovat, toto označení bude odebráno.</translation>
 <context>
     <name>DbSchema</name>
     <message>
-        <location filename="plugins/Event/qml/DbSchema.qml" line="457"/>
+        <location filename="plugins/Event/qml/DbSchema.qml" line="450"/>
         <source>Data version</source>
         <translation>Verze dat</translation>
     </message>
@@ -1728,6 +1728,26 @@ Pokud budete pokračovat, toto označení bude odebráno.</translation>
         <location filename="plugins/Classes/src/editcodeswidget.cpp" line="35"/>
         <source>Latitude</source>
         <translation>Zeměpisná šířka</translation>
+    </message>
+    <message>
+        <location filename="plugins/Classes/src/editcodeswidget.cpp" line="35"/>
+        <source>Timed crossing next</source>
+        <translation>Přerušení času - kon.</translation>
+    </message>
+    <message>
+        <location filename="plugins/Classes/src/editcodeswidget.cpp" line="35"/>
+        <source>Next control which ends the timed crossing (time pause for safety reasons)</source>
+        <translation>Mezi těmito dvěma kontrolami bude přerušeno měření času (z bezpečnostních důvodů, např. přechod pro chodce)</translation>
+    </message>
+    <message>
+        <location filename="plugins/Classes/src/editcodeswidget.cpp" line="36"/>
+        <source>Timed crossing seconds</source>
+        <translation>Přerušení času - s</translation>
+    </message>
+    <message>
+        <location filename="plugins/Classes/src/editcodeswidget.cpp" line="37"/>
+        <source>Interval which does not count towards total time</source>
+        <translation>Maximální doba (v sekundách) mezi touto a následující kontrolou, která se nezapočítá do času závodníka</translation>
     </message>
 </context>
 <context>

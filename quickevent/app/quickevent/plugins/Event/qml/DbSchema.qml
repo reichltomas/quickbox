@@ -78,7 +78,15 @@ Schema {
 				//Field { name: 'type'; type: String { }
 				//	comment: 'S - start, F - finish'
 				//},
-				Field { name: 'note'; type: String { } }
+				Field { name: 'note'; type: String { } },
+				Field { name: 'timedCrossingNextControl'; type: Int { }
+					comment: 'if this control is a start of timed crossing, this is set to id of the end control of the crossing; else NULL'
+				},
+				Field { name: 'timedCrossingMaxSeconds'; type: Int { }
+					comment: 'if this control is a start of timed crossing, this is the maximum time in seconds that is subtracted from runners time';
+					defaultValue: 0;
+					notNull: true
+				}
 			]
 			indexes: [
 				//Index {fields: ['stageId', 'code']; unique: true }

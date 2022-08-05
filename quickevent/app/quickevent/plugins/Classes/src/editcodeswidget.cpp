@@ -32,6 +32,8 @@ EditCodesWidget::EditCodesWidget(QWidget *parent)
 		m->addColumn("codes.radio", tr("Radio"));
 		m->addColumn("codes.longitude", tr("Long")).setToolTip(tr("Longitude"));
 		m->addColumn("codes.latitude", tr("Lat")).setToolTip(tr("Latitude"));
+		m->addColumn("codes.timedCrossingNextControl", tr("Timed crossing next")).setToolTip(tr("Next control which ends the timed crossing (time pause for safety reasons)"));
+		m->addColumn("codes.timedCrossingMaxSeconds", tr("Timed crossing seconds")).setToolTip(tr("Interval which does not count towards total time"));
 		ui->tableView->setTableModel(m);
 		m_tableModel = m;
 	}
